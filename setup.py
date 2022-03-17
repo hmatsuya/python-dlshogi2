@@ -2,6 +2,5 @@
 
 setup(
     name='python-dlshogi2',
-    packages=['pydlshogi2', 'pydlshogi2.player'],
-    # package_dir={"": "pydlshogi2"}
+    packages=['pydlshogi2', 'pydlshogi2.network', 'pydlshogi2.player', 'pydlshogi2.uct', 'pydlshogi2.utils'],
 )
